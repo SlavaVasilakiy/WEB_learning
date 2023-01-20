@@ -1,0 +1,29 @@
+html {
+    background-color: rgb(173, 245, 245);
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #c90707;
+}
+
+h2 {
+    color: #1d079d;
+}
+
+img {
+    width: 200px;
+}
+
+.img300 {
+    width: 300px;
+}
+
+.img200 {
+    width: 200px;
+}
+
+.bigsize {
+    font-size: 30px;
+}
+
