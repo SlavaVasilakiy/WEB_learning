@@ -1,7 +1,7 @@
-const userTemperature = prompt("Enter temperature in celsium: ");
+const userTemperature = +prompt("Enter temperature in celsium: ");
 
 function fromCelsiumToFarenheit(celsiumTemperature) {
     return (9 / 5) * celsiumTemperature + 32;
 }
 
-alert(fromCelsiumToFarenheit(userTemperature).toFixed(1));
+alert(`Celsium: ${userTemperature} = Farenheit: ${fromCelsiumToFarenheit(userTemperature).toFixed(1)}`);
